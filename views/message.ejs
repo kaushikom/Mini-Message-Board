@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= author %>'s Message
+    </title>
+</head>
+
+<body>
+    <a href="/">Go home</a>
+    <h1>Message <%= ++index %>
+    </h1>
+    <h5>Author: <span>
+            <%= author %>
+        </span></h5>
+    <h5>Message:</h5>
+    <p>
+        <%= text %>
+    </p>
+    <h5>Date:</h5>
+    <p>
+        <%= added %>
+    </p>
+</body>
+
+</html>
